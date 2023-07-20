@@ -27,7 +27,7 @@ function CarList() {
     const bold = name && car.name.toLowerCase().includes(name.toLowerCase());
     
     return (
-      <div key={car.id} className={`panel ${bold && 'bold'}`}>
+      <div key={car.id} className={`panel bold`}>
         <p>
           {car.name} - ${car.cost}
         </p>

@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# CarsStack
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+CarsStack is a React Redux web application that allows you to manage your car collection. With CarsStack, you can add new cars to your collection, remove existing ones, and search for specific cars by name. The app provides a user-friendly interface to interact with your car data effectively.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [CarsStack](#carsstack)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Getting Started](#getting-started)
+    - [Installation](#installation)
+    - [Usage](#usage)
+  - [Technologies Used](#technologies-used)
+  - [Screenshots](#screenshots)
+    - [CarStack - main](#carstack---main)
+    - [CarStack - Adding cars, Total Computed](#carstack---adding-cars-total-computed)
+    - [CarStack - Displaying matching search results](#carstack---displaying-matching-search-results)
+    - [CarStack - Displaying the match result in the list](#carstack---displaying-the-match-result-in-the-list)
+    - [CarStack - Highlighting existing cars bold with matching add car field](#carstack---highlighting-existing-cars-bold-with-matching-add-car-field)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Add new cars to your collection.
+- Remove cars from your collection.
+- Search for cars by name.
+- Real-time total cost calculation of all cars in the collection.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+Follow the instructions below to get a copy of the CarsStack app up and running on your local machine.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installation
 
-### `npm run build`
+1. Clone the repository using Git:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+git clone https://github.com/colson0x1/carstack.git
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Navigate to the project directory:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+cd carstack
+```
 
-### `npm run eject`
+3. Install the required dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To run the CarsStack app, use the following command:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm start
+```
 
-## Learn More
+This will start the development server, and you can access the app by visiting [http://localhost:3000](http://localhost:3000) in your web browser.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Technologies Used
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+CarsStack is built with the following technologies:
 
-### Code Splitting
+- React: A JavaScript library for building user interfaces.
+- Redux: A state management library for managing the app's data and state.
+- Bulma: A modern CSS framework for styling the app's components.
+- @reduxjs/toolkit: A set of utility functions for efficient Redux development.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### CarStack - main
+![carstack - main](https://i.imgur.com/1mHImn8.png)
 
-### Making a Progressive Web App
+### CarStack - Adding cars, Total Computed 
+![carstack - Add Cars, Total Computed](https://i.imgur.com/iPVDvCE.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### CarStack - Displaying matching search results
+![carstack - Displaying matching search results](https://i.imgur.com/rQESpof.png)
 
-### Advanced Configuration
+### CarStack - Displaying the match result in the list
+![carstack - Displaying the match result in the list](https://i.imgur.com/IEAUwyK.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### CarStack - Highlighting existing cars bold with matching add car field
+![carstack - Highlighting existing cars bold with matching add car field ](https://i.imgur.com/0jk9EQ1.png)

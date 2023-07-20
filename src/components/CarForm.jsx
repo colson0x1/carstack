@@ -33,7 +33,7 @@ function CarForm() {
       <form onSubmit={handleSubmit}>
         <div className="field-group">
           <div className="field">
-            <label className="label">Name</label>
+            <label className="label">Model</label>
             <input
               className="input is-expanded"
               value={name}
