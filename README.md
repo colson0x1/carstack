@@ -2,6 +2,8 @@
 
 CarsStack is a React Redux web application that allows you to manage your car collection. With CarsStack, you can add new cars to your collection, remove existing ones, and search for specific cars by name. The app provides a user-friendly interface to interact with your car data effectively.
 
+![carstack - Add Cars, Total Computed](https://i.imgur.com/iPVDvCE.png)
+
 ## Table of Contents
 
 - [CarsStack](#carsstack)
